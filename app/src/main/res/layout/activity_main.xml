@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/tn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="number"
+        android:padding="40sp"
+        android:text="enter 1st input"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/tn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="number"
+        android:padding="40sp"
+        android:text="enter 2nd input"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:layout_weight="1"
+        android:padding="40sp"
+        android:text="result"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#054064"
+        android:padding="0sp"
+        android:text="ADD"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#054064"
+        android:padding="0sp"
+        android:text="SUBTRACT"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/mul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#054064"
+        android:padding="0sp"
+        android:text="MULTIPLY"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/div"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#054064"
+        android:padding="0sp"
+        android:text="DIVIDE"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=" CLEAR  ALL"
+        android:textColor="#1C1919"
+        android:textSize="20sp" />
+</LinearLayout>
